@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 // custom header imports.
-#include "../headers/keymap_aliases.h"
+#include "headers/keymap_aliases.h"
 
 / {
         keymap {
