@@ -21,21 +21,11 @@
 #define RBK RBKT
 #define EQU EQUAL
 #define MNS MINUS
-#define FSL FSLH
 #define BSL BSLH
-#define SMI SEMI
-#define CMM COMMA
 
 #define LFT LEFT
 #define RIT RIGHT
 #define DWN DOWN
-
-#define LCM LCMD
-#define RAT RALT
-#define RCT RCTRL
-#define RSF RSHFT
-#define BSP BSPC
-#define BLK SPACE
 
 #define _x_ &none
 

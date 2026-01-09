@@ -8,25 +8,20 @@
 
 
 // secondary behaviours.
-#define +TAB+ &lt FUNC TAB
-#define +LCTRL+ &mt LCTRL CAPS
-
-#define SMBL_BSP &qlt SMBL BSP
-#define +ESC+ &lt NUMB ESC
-#define +RET+ &lt NAVG RET
+#define +BSPC+ &qlt SMBL BSPC
 #define +DEL+ &qmt RCMD DEL
+#define +ENT+ &lt NAVG RET
+#define +ESC+ &lt NUMB ESC
+#define +LCTRL+ &mt LCTRL CAPS
+#define +TAB+ &lt FUNC TAB
 #define WRD_DEL &word_del
 
 // aliases of Modifiers (having normal behaviours).
-#define _RCMD_ &kp RCMD
+#define _LALT_ &kp LALT
 #define _LSHFT_ &kp LSHFT
-// &kp _RCM_
-// &kp LSF
-// &kp RSF  
-// &mt LCT CPS
-// &kp RCT
-// &kp LAT
-// &kp BLK
+#define _RCMD_ &kp RCMD
+#define _RCTRL_ &kp RCTRL
+#define _RSHFT_ &kp RSHFT
 
 // For Alphabets (usually the default layer)
 #define _A_ &kp A
@@ -55,3 +50,11 @@
 #define _X_ &kp X
 #define _Y_ &kp Y
 #define _Z_ &kp Z
+
+// For Symbols
+#define _CMM_ &kp COMMA
+#define _DOT_ &kp DOT
+#define _FSL_ &kp FSLH
+#define _SMI_ &kp SEMI
+#define _SQT_ &kp SQT
+#define _SPC_ &kp SPACE

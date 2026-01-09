@@ -21,19 +21,20 @@
 // | SHFT |  A  |  S  |  D  |  F  |  G  |                  |  H  |  J  |  K  |  L  |  ;  |  '   |
 // | CTRL |  Z  |  X  |  C  |  V  |  B  |                  |  N  |  M  |  ,  |  .  |  /  | ESC  |
 // ╰──────┴─────┴─────┴─────┴─────┴─────╯───────╮  ╭───────╰─────┴─────┴─────┴─────┴─────┴──────╯
-//                      |  ALT  | BSPC  |  ESC  |  |  ENT  |  SPC  |  DEL  |
+//                      |  ALT  | BKSPC |  ESC  |  | ENTER | SPACE |  DEL  |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
 //      TAB:  (hold)=FUNCTION layer
 // (L) CTRL: (press)=CAPSLOCK.
 //     BSPC:  (hold)=SYMBOL layer.
 //      ESC:  (hold)=NUMBER layer.
+//    ENTER:  (hold)=NUMBER layer.
 
                         display-name = "Alphabets Layer";
                         bindings = <
-    +TAB+   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_   _P_   RCMD
-   _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   SEMI  SQT
-   +LCTRL+  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_   CMM   DOT   FSLH  ESC
-                         _LALT_  +BSPC+  +ESC+       _LALT_  +BSPC+  +ESC+
+    +TAB+   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_     _x_
+   _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   _SMI_  _RSHFT_
+   +LCTRL+  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
+                         _LALT_  +BSPC+  +ESC+       +ENT+  _SPC_  +DEL+
                         >;
                 };
 
