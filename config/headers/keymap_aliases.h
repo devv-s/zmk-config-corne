@@ -1,14 +1,13 @@
 #pragma once
-#include "keynames.h"
 #include "keynames_dvorak.h"
 
 // Layers Enum
 #define ALPHA 0
 #define NUMBR 1
 #define SYMBL 2
-#define NAVIG 2
-#define FUNCT 2
-#define BLTHT 2
+#define NAVIG 3
+#define FUNCT 3
+#define BLTHT 3
 
 // keymaps alias.
 // oKEYo means KEY has secondary behaviour. Like, it does something on tap and does something else on hold.
@@ -98,13 +97,24 @@
 #define _SQT_ &kp SQT            // Single Quote
 #define _XCL_ &kp EXCL           // Exclamation
 
-
-
 // For Special Keys
 #define BKSPC &kp BSPC          // Backspace
 #define NUMLK &kp KP_NUM        // Num lock
 #define _RET_ &kp RET           // Enter or Return
 #define _SPC_ &kp SPACE
+#define _VMT_ &kp C_MUTE        // Volume mute
+#define _VDN_ &kp C_VOL_DN      // Volume down
+#define _VUP_ &kp C_VOL_UP      // Volume up
+#define _BDN_ &kp C_BRI_DN      // Brightness down
+#define _BUP_ &kp C_BRI_UP      // Brightness up
+#define _PSC_ &kp PSCRN         // Printscreen
+#define _HOM_ &kp HOME
+#define _END_ &kp END
+#define _LFT_ &kp LEFT
+#define _RIT_ &kp RIGHT
+#define _DWN_ &kp DOWN
+#define _UP_  &kp DOWN
 
 // For Layers
+#define _x_ &none
 #define BT_LYR &to BLTHT         // Bluetooth Layer
