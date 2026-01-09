@@ -12,6 +12,24 @@
 #include "headers/keymap_aliases.h"
 
 / {
+        behaviors {
+					qmt: qmt_node {
+						compatible = "zmk,behavior-hold-tap";
+						flavor = "hold-preferred";
+						tapping-term-ms = <200>;
+						quick-tap-ms = <200>;
+						bindings = <&kp>, <&kp>;
+					};
+
+					qlt: qlt_node {
+						compatible = "zmk,behavior-hold-tap";
+						flavor = "tap-preferred";
+						tapping-term-ms = <200>;
+						quick-tap-ms = <200>;
+						bindings = <&mo>, <&kp>;
+					};
+				};
+
         keymap {
                 compatible = "zmk,keymap";
 
