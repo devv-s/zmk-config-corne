@@ -115,6 +115,20 @@
 #define _DWN_ &kp DOWN
 #define _UP_  &kp DOWN
 
+// For Function keys
+#define _F1_ &kp F1
+#define _F2_ &kp F2
+#define _F3_ &kp F3
+#define _F4_ &kp F4
+#define _F5_ &kp F5
+#define _F6_ &kp F6
+#define _F7_ &kp F7
+#define _F8_ &kp F8
+#define _F9_ &kp F9
+#define _F10_ &kp F10
+#define _F11_ &kp F11
+#define _F12_ &kp F12
+
 // For Layers
 #define _x_ &none
 #define AL_LYR &to ALPHA         // Alphabets Layer
