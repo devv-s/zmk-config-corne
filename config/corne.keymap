@@ -143,7 +143,7 @@
 
                         display-name = "Bluetooth Layer";
                         bindings = <
-    _BTC_  _BT1_ _BT2_ _BT3_ _BT4_ _BT5_                    _x_    _x_   _x_   _x_   _x_   _x_ 
+     _x_    _x_   _x_   _x_   _x_   _x_                     _x_    _x_   _x_   _x_   _x_   _x_ 
     RESET   _x_   _x_   _x_   _x_   _x_                     _x_    _x_   _x_   _x_   _x_  RESET
     AL_LYR  _x_   _x_   _x_   _x_  BOOT                     BOOT   _x_   _x_   _x_   _x_  AL_LYR
                           _x_    _x_     _x_            _x_    _x_    _x_  
