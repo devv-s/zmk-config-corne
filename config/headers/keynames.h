@@ -1,8 +1,5 @@
 #pragma once
 
-#define GRV GRAVE
-#define XCL EXCL
-#define HSH HASH
 #define DLR DLLR
 #define PCT PRCNT
 #define CRT CARET

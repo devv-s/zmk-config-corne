@@ -75,14 +75,29 @@
 #define _0_ &kp N0
 
 // For Symbols
+#define _AT_  AT                 // At        (@)
+#define _AMP_ AMPS               // Ampersand (&)
+#define _AST_ &kp ASTRK          // Asterisk  (*)
+#define _BSL_ BSLH               // Backslash (\)
 #define _CMM_ &kp COMMA
+#define _CRT_ CARET
+#define _DLR_ DLLR               // Dollar    ($)
 #define _DOT_ &kp DOT
-#define _FSL_ &kp FSLH           // Forward Slash
+#define _EQU_ EQUAL
+#define _FSL_ &kp FSLH           // Forward Slash (/)
+#define _GRV_ &kp GRAVE          // Back tick or tilde (`)
+#define _HSH_ &kp HASH           // Hash or Pound (#)
+#define _LBK_ LBKT               // Left Bracket  ({)
+#define _LPR_ LPAR               // Left Paranthesis: (
+#define _MNS_ &kp MINUS
+#define _PCT_ PRCNT
+#define _PLS_ &kp PLUS
+#define _RBK_ RBKT               // Right Bracket
+#define _RPR_ RPAR               // Right Paranthesis
 #define _SMI_ &kp SEMI           // Semi-colon
 #define _SQT_ &kp SQT            // Single Quote
-#define _AST_ &kp ASTRK          // Asterisk
-#define _PLS_ &kp PLUS
-#define _MNS_ &kp MINUS
+#define _XCL_ &kp EXCL           // Exclamation
+
 
 
 // For Special Keys
