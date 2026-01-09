@@ -38,17 +38,21 @@
                         >;
                 };
 
-                lower_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                numeric_layer {
+// ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
+// | TAB  |  Q  |  W  |  E  |  R  |  T  |                  |  Y  |  U  |  I  |  O  |  P  | BSPC |
+// | SHFT |  A  |  S  |  D  |  F  |  G  |                  |  H  |  J  |  K  |  L  |  ;  |  '   |
+// | CTRL |  Z  |  X  |  C  |  V  |  B  |                  |  N  |  M  |  ,  |  .  |  /  | ESC  |
+// ╰──────┴─────┴─────┴─────┴─────┴─────╯───────╮  ╭───────╰─────┴─────┴─────┴─────┴─────┴──────╯
+//                      |  ALT  | BKSPC |  ESC  |  | ENTER | SPACE |  DEL  |
+//                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
+
+                        display-name = "Numeric Layer";
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+    +TAB+   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_     _x_
+   _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   _SMI_  _RSHFT_
+   +LCTRL+  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
+                         _LALT_  +BSPC+  +ESC+       +ENT+  _SPC_  +DEL+
                         >;
                 };
 

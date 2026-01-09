@@ -1,11 +1,11 @@
 #pragma once
 
 #define ALPH 0
-#define NUMB 0
-#define SMBL 0
-#define NAVG 0
-#define FUNC 0
-#define SYST 0
+#define NUMB 1
+#define SMBL 1
+#define NAVG 1
+#define FUNC 1
+#define SYST 1
 
 #define GRV GRAVE
 #define XCL EXCL
