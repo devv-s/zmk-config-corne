@@ -1,11 +1,11 @@
 #pragma once
 
-#define ALPH 0
-#define NUMB 1
-#define SMBL 1
-#define NAVG 1
-#define FUNC 1
-#define SYST 1
+#define ALPHA 0
+#define NUMBR 1
+#define SYMBL 2
+#define NAVIG 2
+#define FUNCT 2
+#define BLTHT 2
 
 #define GRV GRAVE
 #define XCL EXCL
@@ -14,13 +14,11 @@
 #define PCT PRCNT
 #define CRT CARET
 #define AMP AMPS
-#define AST ASTRK
 #define LPR LPAR
 #define RPR RPAR
 #define LBK LBKT
 #define RBK RBKT
 #define EQU EQUAL
-#define MNS MINUS
 #define BSL BSLH
 
 #define LFT LEFT

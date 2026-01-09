@@ -18,7 +18,10 @@
 
 // aliases of Modifiers (having normal behaviours).
 #define _LALT_ &kp LALT
+#define _LCMD_ &kp LCMD
 #define _LSHFT_ &kp LSHFT
+#define _LCTRL_ &kp LCTRL
+#define _RALT_ &kp RALT
 #define _RCMD_ &kp RCMD
 #define _RCTRL_ &kp RCTRL
 #define _RSHFT_ &kp RSHFT
@@ -54,7 +57,19 @@
 // For Symbols
 #define _CMM_ &kp COMMA
 #define _DOT_ &kp DOT
-#define _FSL_ &kp FSLH
-#define _SMI_ &kp SEMI
-#define _SQT_ &kp SQT
+#define _FSL_ &kp FSLH           // Forward Slash
+#define _SMI_ &kp SEMI           // Semi-colon
+#define _SQT_ &kp SQT            // Single Quote
+#define _AST_ &kp ASTRK          // Asterisk
+#define _PLS_ &kp PLUS
+#define _MNS_ &kp MINUS
+
+
+// For Special Keys
+#define BKSPC &kp BSPC          // Backspace
+#define NUMLK &kp KP_NUM        // Num lock
+#define _RET_ &kp RET           // Enter or Return
 #define _SPC_ &kp SPACE
+
+// For Layers
+#define BT_LYR &to BLTHT         // Bluetooth Layer

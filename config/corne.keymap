@@ -60,19 +60,19 @@
 
                 numeric_layer {
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
-// | TAB  |  Q  |  W  |  E  |  R  |  T  |                  |  Y  |  U  |  I  |  O  |  P  | BSPC |
-// | SHFT |  A  |  S  |  D  |  F  |  G  |                  |  H  |  J  |  K  |  L  |  ;  |  '   |
-// | CTRL |  Z  |  X  |  C  |  V  |  B  |                  |  N  |  M  |  ,  |  .  |  /  | ESC  |
+// |BT_LYR|     |  /  |  *  |  +  |  -  |                  |  .  |  7  |  8  |  9  |  *  |  /   |
+// |      |     |     |     |SHIFT|BKSPC|                  |  0  |  4  |  5  |  6  |  +  |ENTER |
+// |NUMLCK|     |     |  .  |ENTER|     |                  |     |  1  |  2  |  3  |  -  |BKSPC |
 // ╰──────┴─────┴─────┴─────┴─────┴─────╯───────╮  ╭───────╰─────┴─────┴─────┴─────┴─────┴──────╯
-//                      |  ALT  | BKSPC |  ESC  |  | ENTER | SPACE |  DEL  |
+//                      |       |       |       |  |  CTRL |  ALT  |  CMD  |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
 
                         display-name = "Numeric Layer";
                         bindings = <
-    oTABo   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_     _x_
-   _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   _SMI_  _RSHFT_
-   oLCTRLo  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
-                         _LALT_  oBSPCo  oESCo       oENTo  _SPC_  oDELo
+   BT_LYR   _x_  _FSL_ _AST_ _PLS_ _MNS_                     _x_   _x_   _x_   _x_   _AST_  _FSL_
+     _x_    _x_   _x_   _x_   _F_  BKSPC                     _x_   _x_   _x_   _x_   _PLS_  _RET_
+   NUMLCK   _x_   _x_  _DOT_ _RET_  _x_                      _x_   _x_   _x_   _x_   _MNS_  BKSPC
+                          _x_     _x_     _x_       _RCTRL_  _RALT_  _RCMD_
                         >;
                 };
 
