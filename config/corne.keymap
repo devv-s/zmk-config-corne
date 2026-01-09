@@ -37,7 +37,7 @@
 
                 alpha_layer {
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
-// | TAB  |  Q  |  W  |  E  |  R  |  T  |                  |  Y  |  U  |  I  |  O  |  P  |      |
+// | TAB  |  Q  |  W  |  E  |  R  |  T  |                  |  Y  |  U  |  I  |  O  |  P  |FN_LYR|
 // | SHFT |  A  |  S  |  D  |  F  |  G  |                  |  H  |  J  |  K  |  L  |  ;  | SHFT |
 // | CTRL |  Z  |  X  |  C  |  V  |  B  |                  |  N  |  M  |  ,  |  .  |  /  | CTRL |
 // ╰──────┴─────┴─────┴─────┴─────┴─────╯───────╮  ╭───────╰─────┴─────┴─────┴─────┴─────┴──────╯
@@ -52,7 +52,7 @@
 
                         display-name = "Alphabets Layer";
                         bindings = <
-    oTABo   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_     _x_
+    oTABo   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_   FN_LYR
    _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   _SMI_  _RSHFT_
    oLCTRLo  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
                          _LALT_  oBSPCo  oESCo       oRETo  _SPC_  oDELo
@@ -108,6 +108,24 @@
      _x_    _x_  _HOM_  _x_   _x_   BKSPC                    _x_   _x_   _x_   _x_   _x_    _x_ 
      _x_    _x_  _LFT_ _DWN_  _UP_  _RIT_                    _x_   _x_   _x_   _x_   _x_    _x_
                            _x_     _x_     _x_        _x_     _x_     _x_  
+                        >;
+                };
+
+                function_layer {
+// ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
+// |      |     |     |     |     |     |                  |     | F7  | F8  | F9  | F10 |      |
+// |      |     |     |     |SHIFT|     |                  |     | F4  | F5  | F6  | F11 |      |
+// |      |     |     |     |     |     |                  |     | F1  | F2  | F3  | F12 |      |
+// ╰──────┴─────┴─────┴─────┴─────┴─────╯───────╮  ╭───────╰─────┴─────┴─────┴─────┴─────┴──────╯
+//                      |  CMD  |  ALT  |  CTRL |  |       |       |       |
+//                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
+
+                        display-name = "Function Layer";
+                        bindings = <
+     _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F7_  _F8_  _F9_  _F10_   _x_ 
+     _x_    _x_   _x_   _x_ _LSHFT_   _x_                   _x_   _F4_  _F5_  _F6_  _F11_   _x_ 
+     _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F1_  _F2_  _F3_  _F12_   _x_ 
+                        _LCMD_  _RALT_  _RCTRL_        _x_     _x_    _x_  
                         >;
                 };
         };

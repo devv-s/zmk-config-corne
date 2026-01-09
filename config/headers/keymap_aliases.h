@@ -6,8 +6,8 @@
 #define NUMBR 1
 #define SYMBL 2
 #define NAVIG 3
-#define FUNCT 3
-#define BLTHT 3
+#define FUNCT 4
+#define BLTHT 4
 
 // keymaps alias.
 // oKEYo means KEY has secondary behaviour. Like, it does something on tap and does something else on hold.
@@ -118,3 +118,4 @@
 // For Layers
 #define _x_ &none
 #define BT_LYR &to BLTHT         // Bluetooth Layer
+#define FN_LYR &to FUNCT         // Function Layer
