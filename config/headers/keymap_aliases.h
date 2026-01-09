@@ -3,17 +3,17 @@
 #include "keynames_dvorak.h"
 
 // keymaps alias.
-// +KEY+ means KEY has secondary behaviour. Like, it does something on tap and does something else on hold.
+// oKEYo means KEY has secondary behaviour. Like, it does something on tap and does something else on hold.
 // _KEY_ means KEY has default/normal behaviour.
 
 
 // secondary behaviours.
-#define +BSPC+ &qlt SMBL BSPC
-#define +DEL+ &qmt RCMD DEL
-#define +ENT+ &lt NAVG RET
-#define +ESC+ &lt NUMB ESC
-#define +LCTRL+ &mt LCTRL CAPS
-#define +TAB+ &lt FUNC TAB
+#define oBSPCo &qlt SMBL BSPC
+#define oDELo &qmt RCMD DEL
+#define oENTo &lt NAVG RET
+#define oESCo &lt NUMB ESC
+#define oLCTRLo &mt LCTRL CAPS
+#define oTABo &lt FUNC TAB
 #define WRD_DEL &word_del
 
 // aliases of Modifiers (having normal behaviours).
