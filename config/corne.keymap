@@ -47,7 +47,8 @@
 // (L) CTRL: (press)=CAPSLOCK.
 //     BSPC:  (hold)=SYMBOL layer.
 //      ESC:  (hold)=NUMBER layer.
-//    ENTER:  (hold)=NUMBER layer.
+//    ENTER:  (hold)=NAVIGATION layer.
+//      DEL:  (hold)=Command/WIN key.
 
                         display-name = "Alphabets Layer";
                         bindings = <

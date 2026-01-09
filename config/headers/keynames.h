@@ -1,12 +1,5 @@
 #pragma once
 
-#define ALPHA 0
-#define NUMBR 1
-#define SYMBL 2
-#define NAVIG 2
-#define FUNCT 2
-#define BLTHT 2
-
 #define GRV GRAVE
 #define XCL EXCL
 #define HSH HASH

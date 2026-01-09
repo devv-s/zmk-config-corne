@@ -2,13 +2,21 @@
 #include "keynames.h"
 #include "keynames_dvorak.h"
 
+// Layers Enum
+#define ALPHA 0
+#define NUMBR 1
+#define SYMBL 2
+#define NAVIG 2
+#define FUNCT 2
+#define BLTHT 2
+
 // keymaps alias.
 // oKEYo means KEY has secondary behaviour. Like, it does something on tap and does something else on hold.
 // _KEY_ means KEY has default/normal behaviour.
 
 
 // secondary behaviours.
-#define oBSPCo &qlt SMBL BSPC
+#define oBSPCo &qlt SYMBL BSPC
 #define oDELo &qmt RCMD DEL
 #define oRETo &lt NAVIG RET
 #define oESCo &lt NUMBR ESC
