@@ -10,8 +10,8 @@
 // secondary behaviours.
 #define oBSPCo &qlt SMBL BSPC
 #define oDELo &qmt RCMD DEL
-#define oENTo &lt NAVG RET
-#define oESCo &lt NUMB ESC
+#define oRETo &lt NAVIG RET
+#define oESCo &lt NUMBR ESC
 #define oLCTRLo &mt LCTRL CAPS
 #define oTABo &lt FUNC TAB
 #define WRD_DEL &word_del
