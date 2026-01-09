@@ -69,9 +69,9 @@
 
                         display-name = "Numeric Layer";
                         bindings = <
-   BT_LYR   _x_  _FSL_ _AST_ _PLS_ _MNS_                     _x_   _x_   _x_   _x_   _AST_  _FSL_
-     _x_    _x_   _x_   _x_   _F_  BKSPC                     _x_   _x_   _x_   _x_   _PLS_  _RET_
-   NUMLCK   _x_   _x_  _DOT_ _RET_  _x_                      _x_   _x_   _x_   _x_   _MNS_  BKSPC
+   BT_LYR   _x_  _FSL_ _AST_ _PLS_ _MNS_                    _DOT_  _7_   _8_   _9_   _AST_  _FSL_
+     _x_    _x_   _x_   _x_   _F_  BKSPC                     _0_   _4_   _5_   _6_   _PLS_  _RET_
+   NUMLCK   _x_   _x_  _DOT_ _RET_  _x_                      _x_   _1_   _2_   _3_   _MNS_  BKSPC
                           _x_     _x_     _x_       _RCTRL_  _RALT_  _RCMD_
                         >;
                 };

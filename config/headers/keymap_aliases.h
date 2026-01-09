@@ -13,7 +13,7 @@
 #define oRETo &lt NAVIG RET
 #define oESCo &lt NUMBR ESC
 #define oLCTRLo &mt LCTRL CAPS
-#define oTABo &lt FUNC TAB
+#define oTABo &lt FUNCT TAB
 #define WRD_DEL &word_del
 
 // aliases of Modifiers (having normal behaviours).
@@ -53,6 +53,18 @@
 #define _X_ &kp X
 #define _Y_ &kp Y
 #define _Z_ &kp Z
+
+// For Numbers
+#define _1_ &kp N1
+#define _2_ &kp N2
+#define _3_ &kp N3
+#define _4_ &kp N4
+#define _5_ &kp N5
+#define _6_ &kp N6
+#define _7_ &kp N7
+#define _8_ &kp N8
+#define _9_ &kp N9
+#define _0_ &kp N0
 
 // For Symbols
 #define _CMM_ &kp COMMA
