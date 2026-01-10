@@ -88,10 +88,10 @@
 //                      |       |       |       |  |  CTRL |  ALT  |  CMD  |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
                         bindings = <
-&kp GRAVE &kp EXCL &kp AT   &kp HASH &kp DLLR  &kp PRCNT &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &kp CARET &none
-&kp none  &kp none &kp none &kp none &kp LSHFT &kp BSPC  &kp Q    &kp RBKT  &kp MINUS &kp EQUAL &kp SQT   &kp RET
-&kp none  &kp none &kp none &kp DOT  &kp RET   &kp none  &kp BLSH &kp LBKT  &kp GRAVE &kp W     &kp E     &kp BSPC
-                       &kp none &kp none &kp none  &kp RCTRL &kp RALT &kp RCMD
+    _GRV_  _XCL_  _AT_ _HSH_ _DLR_  _MNS_                   _AMP_ _AST_ _LPR_ _RPR_ _CRT_   _x_
+     _x_    _x_   _x_   _x_ _LSHFT_ BKSPC                   _SQT_ _EQU_ _LBK_ _RBK_ _MNS_  _RET_
+     _x_    _x_   _x_  _DOT_ _RET_  _x_                     _BSL_ _FSL_ _GRV_ _CMM_ _DOT_ BKSPC
+                           _x_     _x_     _x_      _RCTRL_  _RALT_  _RCMD_
                         >;
                 };
 
