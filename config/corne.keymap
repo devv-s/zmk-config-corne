@@ -89,7 +89,7 @@
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
                         bindings = <
     _GRV_  _XCL_  _AT_ _HSH_ _DLR_  _PCT_                   _AMP_  _AST_  _LPR_  _RPR_  _CRT_  _x_
-     _x_    _x_   _x_   _x_ _LSHFT_ BKSPC                   _DSQT_ _DEQU_ _DLBK_ _DRBK_ _DMNS_ _RET_
+    _GRV_  _XCL_  _AT_ _HSH_ _DLR_  _PCT_                   _AMP_  _AST_  _LPR_  _RPR_  _CRT_  _x_
      _x_    _x_   _x_  _DOT_ _RET_  _x_                     _BSL_  _DFSL_ _GRV_  _DCMM_ _DDOT_ BKSPC
                            _x_     _x_     _x_      _RCTRL_  _RALT_  _RCMD_
                         >;
