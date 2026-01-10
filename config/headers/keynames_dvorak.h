@@ -7,18 +7,18 @@
 // Example: Wherever you use 'LBK' as per QWERTY, just relpace the 'LBK' (non-D) with 'DLBK'.
 
 // Number Row (before BACKSPACE).
-#define DLBK MINUS
-#define DRBK EQUAL
+#define dvLBK &kp MINUS
+#define dvRBK &kp EQUAL
 
 // Top Alphabet Row (after L).
-#define DFSL LBKT
-#define DEQU RBKT
+#define dvFSL &kp LBKT
+#define dvEQU &kp RBKT
 
 // Middle Alphabet Row
-#define DMNS SQT
+#define dvMNS &kp SQT
 
 // Bottom Alphabet Row
-#define DSMI Z
-#define DCMM W
-#define DSQT Q
-#define DDOT E
+#define dvSMI &kp Z
+#define dvCMM &kp W
+#define dvSQT &kp Q
+#define dvDOT &kp E

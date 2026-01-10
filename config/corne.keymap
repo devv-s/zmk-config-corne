@@ -89,8 +89,8 @@
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
                         bindings = <
     _GRV_  _XCL_  _AT_ _HSH_ _DLR_  _MNS_                   _AMP_ _AST_ _LPR_ _RPR_ _CRT_   _x_
-     _x_    _x_   _x_   _x_ _LSHFT_ BKSPC                   _SQT_ _EQU_ _LBK_ _RBK_ _MNS_  _RET_
-     _x_    _x_   _x_  _DOT_ _RET_  _x_                     _BSL_ _DFSL_ _GRV_ _CMM_ _DOT_ BKSPC
+     _x_    _x_   _x_   _x_ _LSHFT_ BKSPC                   dvSQT dvEQU dvLBK dvRBK dvMNS  _RET_
+     _x_    _x_   _x_  _DOT_ _RET_  _x_                     _BSL_ dvFSL _GRV_ dvCMM dvDOT  BKSPC
                            _x_     _x_     _x_      _RCTRL_  _RALT_  _RCMD_
                         >;
                 };
