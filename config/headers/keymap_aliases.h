@@ -113,7 +113,7 @@
 #define _LFT_ &kp LEFT
 #define _RIT_ &kp RIGHT
 #define _DWN_ &kp DOWN
-#define _UP_  &kp DOWN
+#define _UP_  &kp UP
 
 // For Function keys
 #define _F1_ &kp F1
