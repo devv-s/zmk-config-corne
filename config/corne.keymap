@@ -88,9 +88,9 @@
 //                      |       |       |       |  |  CTRL |  ALT  |  CMD  |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
                         bindings = <
-    _GRV_  _XCL_  _AT_ _HSH_ _DLR_  _PCT_                   _AMP_  _AST_  _LPR_  _RPR_  _CRT_   _x_
-     _x_    _x_   _x_   _x_ _LSHFT_ BKSPC                   _DSQT_ _DEQU_ _DLBK_ _DRBK_ _DMNS_  _RET_
-     _x_    _x_   _x_  _DOT_ _RET_  _x_                     _BSL_  _DFSL_ _GRV_  _DCMM_ _DDOT_  BKSPC
+    _GRV_  _XCL_  _AT_ _HSH_ _DLR_  _PCT_                   _AMP_  _AST_  _LPR_  _RPR_  _CRT_  _x_
+     _x_    _x_   _x_   _x_ _LSHFT_ BKSPC                   _DSQT_ _DEQU_ _DLBK_ _DRBK_ _MNS_ _RET_
+     _x_    _x_   _x_  _DOT_ _RET_  _x_                     _BSL_  _DFSL_ _GRV_  _DCMM_ _DDOT_ BKSPC
                            _x_     _x_     _x_      _RCTRL_  _RALT_  _RCMD_
                         >;
                 };
@@ -106,9 +106,9 @@
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
                         bindings = <
      _x_   _VMT_ _VDN_ _VUP_ _BDN_  _BUP_                   _PSC_  _x_   _x_   _x_   _x_  BT_LYR
-     _x_    _x_  _HOM_  _x_   _x_   BKSPC                    _x_   _x_   _x_   _x_   _x_    _x_ 
+     _x_    _x_  _HOM_  _x_   _x_   BKSPC                    _x_   _x_   _x_   _x_   _x_    _x_
      _x_    _x_  _LFT_ _DWN_  _UP_  _RIT_                    _x_   _x_   _x_   _x_   _x_    _x_
-                           _x_     _x_     _x_        _x_     _x_     _x_  
+                           _x_     _x_     _x_        _x_     _x_     _x_
                         >;
                 };
 
@@ -123,10 +123,10 @@
 
                         display-name = "Function Layer";
                         bindings = <
-     _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F7_  _F8_  _F9_  _F10_   _x_ 
-     _x_    _x_   _x_   _x_ _LSHFT_   _x_                   _x_   _F4_  _F5_  _F6_  _F11_   _x_ 
-     _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F1_  _F2_  _F3_  _F12_   _x_ 
-                        _LCMD_  _RALT_  _RCTRL_        _x_     _x_    _x_  
+     _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F7_  _F8_  _F9_  _F10_   _x_
+     _x_    _x_   _x_   _x_ _LSHFT_   _x_                   _x_   _F4_  _F5_  _F6_  _F11_   _x_
+     _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F1_  _F2_  _F3_  _F12_   _x_
+                        _LCMD_  _RALT_  _RCTRL_        _x_     _x_    _x_
                         >;
                 };
 

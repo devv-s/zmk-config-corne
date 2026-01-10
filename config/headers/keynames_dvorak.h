@@ -22,5 +22,3 @@
 #define DCMM W
 #define DSQT Q
 #define DDOT E
-
-
