@@ -54,10 +54,10 @@
 
                         display-name = "Alphabets Layer";
                         bindings = <
-    _TAB_   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_  oFN_LYRo
+    _TAB_   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_   FN_LYR+
    _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   _SMI_  _RSHFT_
-   oLCTRLo  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
-                         _LALT_  oBSPCo  oESCo       oRETo  _SPC_  oDELo
+   LCTRL+  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
+                         _LALT_   BSPC+   ESC+        RET+  _SPC_   DEL+
                         >;
                 };
 
