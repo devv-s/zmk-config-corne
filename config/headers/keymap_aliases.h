@@ -20,7 +20,7 @@
 #define oRETo &lt NAVIG RET
 #define oESCo &lt NUMBR ESC
 #define oLCTRLo &mt LCTRL CAPS
-#define oTABo &lt FUNCT TAB
+#define oFN_LYRo &qlt FUNCT &none
 #define WRD_DEL &word_del
 
 // aliases of Modifiers (having normal behaviours).
@@ -100,6 +100,7 @@
 // For Special Keys
 #define BKSPC &kp BSPC          // Backspace
 #define NUMLK &kp KP_NUM        // Num lock
+#define _TAB_ &kp TAB
 #define _RET_ &kp RET           // Enter or Return
 #define _SPC_ &kp SPACE
 #define _VMT_ &kp C_MUTE        // Volume mute
