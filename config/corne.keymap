@@ -36,7 +36,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                alpha_layer {
+                ALPHA {
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |                  |  Y  |  U  |  I  |  O  |  P  |FN_LYR|
 // | SHFT |  A  |  S  |  D  |  F  |  G  |                  |  H  |  J  |  K  |  L  |  ;  | SHFT |
@@ -52,16 +52,16 @@
 //      DEL:  (hold)=Command/WIN key.
 //   FN_LYR:  (hold)=Function Layer; (tap)=NOTHING.
 
-                        display-name = "Alphabets Layer";
+                        display-name = "(ALPHA)bets Layer";
                         bindings = <
-    _TAB_   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_   FN_LYR+
+    _TAB_   _Q_   _W_   _E_   _R_   _T_                      _Y_   _U_   _I_   _O_    _P_   FN_LYR_
    _LSHFT_  _A_   _S_   _D_   _F_   _G_                      _H_   _J_   _K_   _L_   _SMI_  _RSHFT_
-   LCTRL+  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
-                         _LALT_   BSPC+   ESC+        RET+  _SPC_   DEL+
+   LCTRL_  _Z_   _X_   _C_   _V_   _B_                      _N_   _M_  _CMM_ _DOT_  _FSL_  _RCTRL_
+                         _LALT_   BSPC_   ESC_        RET_  _SPC_   DEL_
                         >;
                 };
 
-                numeric_layer {
+                NUMBERS {
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // |BT_LYR|     |  /  |  *  |  +  |  -  |                  |  .  |  7  |  8  |  9  |  *  |  /   |
 // |      |     |     |     |SHIFT|BKSPC|                  |  0  |  4  |  5  |  6  |  +  |ENTER |
@@ -70,7 +70,7 @@
 //                      |       |       |       |  |  CTRL |  ALT  |  CMD  |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
 
-                        display-name = "Numeric Layer";
+                        display-name = "NUMBERS Layer";
                         bindings = <
    BT_LYR   _x_  _FSL_ _AST_ _PLS_   _MNS_                 _DOT_  _7_   _8_   _9_   _AST_  _FSL_
      _x_    _x_   _x_   _x_ _LSHFT_  BKSPC                  _0_   _4_   _5_   _6_   _PLS_  _RET_
@@ -79,8 +79,8 @@
                         >;
                 };
 
-                symbol_layer {
-                        display-name = "Symbols Layer";
+                SYMBOLS {
+                        display-name = "SYMBOLS Layer";
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // |  ~   |  !  |  @  |  #  |  $  |  %  |                  |  &  |  *  |  (  |  )  |  ^  |      |
 // |      |     |     |     |SHIFT|BKSPC|                  |  '  |  =  |  {  |  }  |  -  |ENTER |
@@ -96,8 +96,8 @@
                         >;
                 };
 
-                navigation_layer {
-                        display-name = "Navigation Layer";
+                NAV {
+                        display-name = "(NAV)igation Layer";
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // |      |Mute |Vol- |Vol+ | Br-   Br+ |                  |_PSC_|     |     |     |     |BT_LYR|
 // |      |     |HOME |     |     | END |                  |     |     |     |     |     |      |
@@ -113,7 +113,7 @@
                         >;
                 };
 
-                function_layer {
+                Fn {
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // |      |     |     |     |     |     |                  |     | F7  | F8  | F9  | F10 |      |
 // |      |     |     |     |SHIFT|     |                  |     | F4  | F5  | F6  | F11 |      |
@@ -122,7 +122,7 @@
 //                      |  CMD  |  ALT  |  CTRL |  |       |       |       |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
 
-                        display-name = "Function Layer";
+                        display-name = "(Fn) Function Layer";
                         bindings = <
      _x_    _x_   _x_   _x_   _x_     _x_                   _x_   _F7_  _F8_  _F9_  _F10_   _x_
      _x_    _x_   _x_   _x_ _LSHFT_   _x_                   _x_   _F4_  _F5_  _F6_  _F11_   _x_
@@ -131,7 +131,7 @@
                         >;
                 };
 
-                bluetooth_layer {
+                BLUETOOTH {
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // |BT CLR|BT 1 |BT 1 |BT 2 |BT 3 |BT 4 |                  |     |     |     |     |     |      |
 // |RESET |     |     |     |     |     |                  |     |     |     |     |     |RESET |
@@ -140,7 +140,7 @@
 //                      |       |       |       |  |       |       |       |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
 
-                        display-name = "Bluetooth Layer";
+                        display-name = "BLUETOOTH Layer";
                         bindings = <
      _x_    _x_   _x_   _x_   _x_   _x_                     _x_    _x_   _x_   _x_   _x_   _x_ 
     RESET   _x_   _x_   _x_   _x_   _x_                     _x_    _x_   _x_   _x_   _x_  RESET

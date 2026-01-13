@@ -15,12 +15,12 @@
 
 
 // secondary behaviours.
-#define BSPC+ &qlt SYMBL BSPC
-#define DEL+ &qmt RCMD DEL
-#define RET+ &lt NAVIG RET
-#define ESC+ &lt NUMBR ESC
-#define LCTRL+ &mt LCTRL CAPS
-#define FN_LYR+ &qlt FUNCT &none
+#define BSPC_ &qlt SYMBL BSPC
+#define DEL_ &qmt RCMD DEL
+#define RET_ &lt NAVIG RET
+#define ESC_ &lt NUMBR ESC
+#define LCTRL_ &mt LCTRL CAPS
+#define FN_LYR_ &qlt FUNCT NONE
 #define WRD_DEL &word_del
 
 // aliases of Modifiers (having normal behaviours).
