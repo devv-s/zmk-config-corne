@@ -20,7 +20,7 @@
 #define RET_ &lt NAVIG RET
 #define ESC_ &lt NUMBR ESC
 #define LCTRL_ &mt LCTRL CAPS
-#define FN_LYR_ &qlt FUNCT NONE
+#define FN_LYR_ &qlt FUNCT RCMD
 #define WRD_DEL &word_del
 
 // aliases of Modifiers (having normal behaviours).

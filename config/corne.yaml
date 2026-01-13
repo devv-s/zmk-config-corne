@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Alphabets Layer:
+  (ALPHA)bets Layer:
   - TAB
   - Q
   - W
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: NONE, h: Function Layer}
+  - {t: RCMD, h: (Fn) Function Layer}
   - LSHFT
   - A
   - S
@@ -38,13 +38,13 @@ layers:
   - /
   - RCTRL
   - LALT
-  - {t: BSPC, h: Symbols Layer}
-  - {t: ESC, h: Numeric Layer}
-  - {t: RET, h: Navigation Layer}
+  - {t: BSPC, h: SYMBOLS Layer}
+  - {t: ESC, h: NUMBERS Layer}
+  - {t: RET, h: (NAV)igation Layer}
   - SPACE
   - {t: DEL, h: RCMD}
-  Numeric Layer:
-  - {t: Bluetooth Layer, h: toggle}
+  NUMBERS Layer:
+  - {t: BLUETOOTH Layer, h: toggle}
   - ''
   - /
   - '*'
@@ -86,13 +86,13 @@ layers:
   - RCTRL
   - RALT
   - RCMD
-  Symbols Layer:
+  SYMBOLS Layer:
   - '`'
   - '!'
   - '@'
   - '#'
   - $
-  - '-'
+  - '%'
   - '&'
   - '*'
   - (
@@ -129,7 +129,7 @@ layers:
   - RCTRL
   - RALT
   - RCMD
-  Navigation Layer:
+  (NAV)igation Layer:
   - ''
   - MUTE
   - VOL DN
@@ -141,7 +141,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Bluetooth Layer, h: toggle}
+  - {t: BLUETOOTH Layer, h: toggle}
   - ''
   - ''
   - HOME
@@ -172,7 +172,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  Function Layer:
+  (Fn) Function Layer:
   - ''
   - ''
   - ''
@@ -215,7 +215,7 @@ layers:
   - ''
   - ''
   - ''
-  Bluetooth Layer:
+  BLUETOOTH Layer:
   - ''
   - ''
   - ''
@@ -240,7 +240,7 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - {t: Alphabets Layer, h: toggle}
+  - {t: (ALPHA)bets Layer, h: toggle}
   - ''
   - ''
   - ''
@@ -251,7 +251,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Alphabets Layer, h: toggle}
+  - {t: (ALPHA)bets Layer, h: toggle}
   - ''
   - ''
   - ''
