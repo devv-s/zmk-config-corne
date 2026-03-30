@@ -111,6 +111,8 @@
 #define _PSC_ &kp PSCRN         // Printscreen
 #define _HOM_ &kp HOME
 #define _END_ &kp END
+#define _PGD_ &kp PG_DN
+#define _PGU_ &kp PG_UP
 #define _LFT_ &kp LEFT
 #define _RIT_ &kp RIGHT
 #define _DWN_ &kp DOWN

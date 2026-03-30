@@ -100,14 +100,14 @@
                         display-name = "(NAV)igation Layer";
 // ╭──────┬─────┬─────┬─────┬─────┬─────╮                  ╭─────┬─────┬─────┬─────┬─────┬──────╮
 // |      |Mute |Vol- |Vol+ | Br-   Br+ |                  |_PSC_|     |     |     |     |BT_LYR|
-// |      |     |HOME |     |     | END |                  |     |     |     |     |     |      |
-// |      |     |    |    |    |    |               |     |     |     |     |     |      |
+// |      |     |HOME |PGDN |PGUP | END |                  | CMD |CTRL |SHIFT| ALT |     |      |
+// |      |     |LEFT |DOWN | UP  |RIGHT|                  |     |     |     |     |     |      |
 // ╰──────┴─────┴─────┴─────┴─────┴─────╯───────╮  ╭───────╰─────┴─────┴─────┴─────┴─────┴──────╯
 //                      |       |       |       |  |       |       |       |
 //                      ╰───────┴───────┴───────╯  ╰───────┴───────┴───────╯
                         bindings = <
      _x_   _VMT_ _VDN_ _VUP_ _BDN_  _BUP_                   _PSC_  _x_   _x_   _x_   _x_  BT_LYR
-     _x_    _x_  _HOM_  _x_   _x_   _END_                    _x_   _x_   _x_   _x_   _x_    _x_
+     _x_    _x_  _HOM_ _PGD_ _PGU_  _END_                 _RCMD_ _RCTRL_ _RSHFT_ _RALT_ _x_ _x_
      _x_    _x_  _LFT_ _DWN_  _UP_  _RIT_                    _x_   _x_   _x_   _x_   _x_    _x_
                            _x_     _x_     _x_        _x_     _x_     _x_
                         >;
